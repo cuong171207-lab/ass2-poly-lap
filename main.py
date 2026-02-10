@@ -37,3 +37,6 @@ def main():
             break
         else:
             print("Lựa chọn không hợp lệ, vui lòng thử lại!")
+"""
+Main menu chương trình POLYLAP
+"""
