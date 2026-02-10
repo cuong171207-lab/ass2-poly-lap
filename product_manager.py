@@ -20,3 +20,6 @@ def list_products(products):
         print(p)
 def update_price(product, new_price):
     product["price"] = new_price
+def update_price(product, new_price):
+    if new_price > 0:
+        product["price"] = new_price
