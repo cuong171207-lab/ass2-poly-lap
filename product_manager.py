@@ -18,3 +18,5 @@ def list_products(products):
         print("No products")
     for p in products:
         print(p)
+def update_price(product, new_price):
+    product["price"] = new_price
