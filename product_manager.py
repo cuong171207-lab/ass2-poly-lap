@@ -30,6 +30,7 @@ def save_data(products):
         print(f"Lỗi khi lưu file: {e}")
 
 def add_product(products):
+    # Validate input price to avoid negative values
     """
     Thêm sản phẩm mới vào danh sách.
     Tự động sinh mã ID (Ví dụ: LT01, LT02...).
