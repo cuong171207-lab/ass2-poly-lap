@@ -1,5 +1,6 @@
 import json
 import os
+from pdb import main
 
 FILE_NAME = "products.json"
 
@@ -167,4 +168,7 @@ def display_all_products(products):
         formatted_price = "{:,}".format(p['price'])
         print(f"{p['id']:<10} | {p['name']:<30} | {p['brand']:<15} | {formatted_price:<12} | {p['quantity']:<5}")
     
-    print("="*85 + "\n")
+    print("="*85 + "\n").__annotations____
+
+if __name__ == "__main__":
+    main()
