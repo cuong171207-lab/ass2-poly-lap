@@ -40,3 +40,4 @@ def main():
 """
 Main menu chương trình POLYLAP
 """
+# Display menu options clearly for user
