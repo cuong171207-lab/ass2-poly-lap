@@ -10,3 +10,6 @@ def remove_product(products, name):
 def remove_product(products, name):
     # remove product by name
     return [p for p in products if p["name"] != name]
+def list_products(products):
+    for p in products:
+        print(p)
