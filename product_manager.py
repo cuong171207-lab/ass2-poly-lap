@@ -13,3 +13,8 @@ def remove_product(products, name):
 def list_products(products):
     for p in products:
         print(p)
+def list_products(products):
+    if not products:
+        print("No products")
+    for p in products:
+        print(p)
