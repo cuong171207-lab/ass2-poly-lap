@@ -7,3 +7,6 @@ def add_product(products):
 
 def remove_product(products, name):
     return [p for p in products if p["name"] != name]
+def remove_product(products, name):
+    # remove product by name
+    return [p for p in products if p["name"] != name]
