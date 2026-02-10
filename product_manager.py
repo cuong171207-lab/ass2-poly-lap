@@ -5,3 +5,5 @@ def add_product(products):
     print("Đã thêm sản phẩm")
 
 
+def remove_product(products, name):
+    return [p for p in products if p["name"] != name]
